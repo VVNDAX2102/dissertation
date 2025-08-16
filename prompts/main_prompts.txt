@@ -143,6 +143,9 @@ perform on Indian, UK, and US publically traded funds.
 I want you to fill the entire theory of Bollinger Bands with mathematical details.
 I want you to write 1000 words about it. 
 
+Give me output in latex code without boilerplate code. I want response in a codeblock. 
+Eg. ```latex response```.
+
 ----------------------------------------------------------------------------------------
 
 \section{Methodology}
