@@ -80,3 +80,59 @@ Introduction:
 """
 
 -------------------------------------------------------------------------------------------
+
+
+------------------------ EXPERIMENT DESIGN AND DATA OVERVIEW ------------------------------
+
+
+I am writing a dissertation thesis on the topic of - how technical indicators
+perform on Indian, UK, and US publically traded funds. The technical indicators 
+that I am choosing right now are Bollinger bands, RSI, MACD, and Ichimoku Clouds. 
+For each country I have taken one fund representing each sector: consumer goods,
+energy, finance and banking, healthcare, and technology. The thing that I am 
+interested to check is does one indicator performs better in predicting market 
+movements than others in a different country across markets. 
+
+
+I want your help in writing the experiment design and data overview in this thesis topic in 2000 words.
+
+Here is what I am doing: 
+
+I downloaded following funds' OHLCV data from yahoo finance for the past 5 years. 
+
+{
+    "India": {
+        "consumer_goods": "Tata India Consumer Fund Direct",
+        "energy": "Nippon India Power & Infra Fund",
+        "finance": "Nippon India Banking & Financial Services Fund",
+        "healthcare": "Nippon India Pharma Bns",
+        "technology": "Nippon India ETF Nifty IT"
+    },
+    "UK": {
+        "consumer_goods": "Tesco",
+        "energy": "Shell",
+        "finance": "Lloyds",
+        "healthcare": "AstraZeneca",
+        "technology": "Sage"
+    },
+    "US": {
+        "consumer_goods": "iShares US Consumer Staples ETF",
+        "energy": "iShares US Energy ETF",
+        "finance": "iShares US Financials ETF",
+        "healthcare": "iShares US Healthcare ETF",
+        "technology": "iShares US Technology ETF"
+    }
+}
+
+The plan was to download the mutual fund and ETF data but for UK, we could only find Global ETFs and not UK specific ones. So, I decided to move with the representative stock for that company. 
+
+Once the data is downloaded, the high level logic is to use the OHLCV data, use closing price to calculate the values of the indicators and based on them we generate buy and sell signals and then we check how much returns we generated in each trade. 
+
+Do not put anything that I should put in the methodology section, don't talk a lot about experiment details, just the design of it. 
+
+Give me output in latex code without boilerplate code. I want response in a codeblock. 
+Eg. ```latex response```.
+
+
+
+-----------------------------------------------------------------------------------------
