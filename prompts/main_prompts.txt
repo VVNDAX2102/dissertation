@@ -52,7 +52,7 @@ gaps or questions in the literature; and development of conceptual framework.
 I want you to develop the argument coherently. The flow of ideas should feel in natural
 progression. Follow the following guidelines while writing this section. 
 
-1. Add citations to the previous work. And for all citations that you add, give me the references to add in a .bib file separately. I will copy paste those contents and put in the references.bib file. 
+1. Add citations using \cite{} to the previous work. And for all citations that you add, give me the references to add in a .bib file separately. I will copy paste those contents and put in the references.bib file. 
 2. You can refer to the numbers and important points and results from those references. 
 3. Assume user doesn't know much about technical indicators or any trading concept, you will have to build it. 
 
