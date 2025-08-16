@@ -27,7 +27,9 @@ Focus on clarity — make it easy to understand.
 Avoid long hyphens and bullet points wherever you can. 
 
 Give me output in latex code without boilerplate code. I want response in a codeblock. 
-Eg. ```latex response```. Also, utilize mathematical syntax wherever you can. 
+Eg. ```latex response```. Also, utilize mathematical syntax for the hypotheses for H_0, H_1, etc. 
+Write in detail about the hypothesis in the english language first very clearly, 
+before writing anything mathematical form of it. 
 
 ------------------------------------------------------------------------------
 
