@@ -32,6 +32,12 @@ LB_t = MB_t - k \cdot \sigma_t
 \]
 where $k$ is a user-defined multiplier, commonly set to 2. The parameter $k$ determines the width of the bands: higher values of $k$ produce wider bands, reducing the frequency of breaches, while lower values create narrower bands, increasing sensitivity to price movements but also the potential for false signals.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{../figures/input/bollinger.png}
+    \caption{Illustrative example of Bollinger Bands showing upper, middle, and lower bands around price series.}
+\end{figure}
+
 The statistical rationale for Bollinger Bands is rooted in the assumption that returns approximate a normal distribution. Under this assumption, setting $k = 2$ should encompass approximately 95.45\% of observed prices within the bands. Thus, prices breaching the bands are statistically unusual events that may indicate overbought or oversold conditions. However, empirical evidence shows that financial return distributions are often leptokurtic and skewed, implying that extreme deviations occur more frequently than the normal model predicts.
 
 Bollinger Bands are inherently adaptive due to their dependence on the rolling standard deviation. In periods of high volatility, $\sigma_t$ increases, widening the bands and accommodating larger price fluctuations. In low-volatility periods, $\sigma_t$ decreases, narrowing the bands and signalling potential upcoming volatility expansions, a phenomenon often referred to as the ``Bollinger Squeeze''. This adaptiveness makes them particularly suitable for comparing markets with different volatility profiles, such as emerging markets like India and more mature markets like the UK and US.
@@ -119,6 +125,14 @@ The RSI is then calculated using the transformation:
 RSI_t = 100 - \frac{100}{1 + RS_t}
 \]
 This formula ensures that $RSI_t$ is always bounded between 0 and 100. By construction, when gains equal losses ($RS_t = 1$), $RSI_t$ equals 50, representing a neutral momentum state. RSI values above 50 indicate average gains exceed average losses, while values below 50 indicate the opposite.
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{../figures/input/rsi.png}
+    \caption{Illustrative example of the Relative Strength Index (RSI) bounded between 0 and 100.}
+\end{figure}
+
 
 The bounded nature of RSI facilitates consistent interpretation:
 \begin{itemize}
@@ -213,6 +227,12 @@ The histogram visually quantifies the convergence or divergence between the MACD
     \item Negative histogram values indicate that the MACD is below the signal line, suggesting bearish momentum.
 \end{itemize}
 The magnitude of the histogram reflects the strength of the divergence, serving as a momentum amplifier.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{../figures/input/macd.png}
+    \caption{Illustrative example of the Relative Strength Index (RSI) bounded between 0 and 100.}
+\end{figure}
 
 The interpretive foundation of the MACD lies in the notions of convergence and divergence:
 \begin{itemize}
@@ -325,6 +345,12 @@ The cloud (Kumo) itself is the area between Senkou Span A and Senkou Span B:
 When Senkou Span A is above Senkou Span B, the cloud is typically shaded one color (often green), indicating bullish conditions. When Senkou Span A is below Senkou Span B, the cloud is shaded another color (often red), indicating bearish conditions.
 
 The default parameter values $(p_1, p_2, p_3) = (9, 26, 52)$ originate from Japanese trading practices of the time, where a 9-period span approximated 1.5 weeks of trading days, 26 periods approximated one month, and 52 approximated two months in a six-day trading week environment. These parameters have been retained in modern five-day trading weeks due to their proven balance between responsiveness and stability.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{../figures/input/ichimoku.png}
+    \caption{Illustrative example of the Relative Strength Index (RSI) bounded between 0 and 100.}
+\end{figure}
 
 From a statistical standpoint, the Tenkan-sen and Kijun-sen are not traditional moving averages but midpoints of high-low ranges, making them more robust to extreme price outliers compared to simple or exponential moving averages. By focusing on midpoints, Ichimoku lines can provide a smoother representation of equilibrium levels while preserving sensitivity to directional changes in price extremes.
 
