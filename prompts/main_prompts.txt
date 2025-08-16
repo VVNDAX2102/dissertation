@@ -27,7 +27,7 @@ Focus on clarity — make it easy to understand.
 Avoid long hyphens and bullet points wherever you can. 
 
 Give me output in latex code without boilerplate code. I want response in a codeblock. 
-Eg. ```latex response```. 
+Eg. ```latex response```. Also, utilize mathematical syntax wherever you can. 
 
 ------------------------------------------------------------------------------
 
