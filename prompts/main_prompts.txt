@@ -25,4 +25,19 @@ Simplify grammar — casual grammar is okay if it feels more human.
 Cut the fluff — skip extra adjectives or filler words.
 Focus on clarity — make it easy to understand.
 
+Give me output in latex code without boilerplate code. I want response in a codeblock. 
+Eg. ```latex response```. 
+
 ------------------------------------------------------------------------------
+
+------------------------ LITERATURE REVIEW --------------------------------------
+
+I am writing a dissertation thesis on the topic of - how technical indicators
+perform on Indian, UK, and US publically traded funds. The technical indicators 
+that I am choosing right now are Bollinger bands, RSI, MACD, and Ichimoku Clouds. 
+For each country I have taken one fund representing each sector: consumer goods,
+energy, finance and banking, healthcare, and technology. The thing that I am 
+interested to check is does one indicator performs better in predicting market 
+movements than others in a different country across markets. 
+
+I want your help in writing the introduction to this thesis topic in 1000 words.
