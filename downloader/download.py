@@ -6,7 +6,7 @@ import os
 end_date = datetime.datetime.today()
 start_date = end_date - datetime.timedelta(days=5*365)
 
-ticker = 'ITBEES.NS'
+ticker = 'IYW'
 
 # Download data
 df = yf.download(

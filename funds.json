@@ -14,10 +14,10 @@
         "technology": "Sage"
     },
     "US": {
-        "consumer_goods": "",
-        "energy": "",
-        "finance": "",
-        "healthcare": "",
-        "technology": ""
+        "consumer_goods": "iShares US Consumer Staples ETF",
+        "energy": "iShares US Energy ETF",
+        "finance": "iShares US Financials ETF",
+        "healthcare": "iShares US Healthcare ETF",
+        "technology": "iShares US Technology ETF"
     }
 }
