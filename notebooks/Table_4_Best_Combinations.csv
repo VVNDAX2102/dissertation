@@ -1,0 +1,5 @@
+Metric,Country,Sector,Indicator,Value,Annual Return,Max Drawdown
+Highest Sharpe Ratio,India,energy,Ichimoku,2.2802,0.3085,-0.1311
+Highest Annual Return,India,energy,Ichimoku,0.3085,0.3085,-0.1311
+Lowest Drawdown,India,consumer_goods,Bollinger_Bands,-0.0324,0.0485,-0.0324
+Highest Win Rate,India,energy,Ichimoku,0.414,0.3085,-0.1311
