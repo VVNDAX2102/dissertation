@@ -3,7 +3,21 @@
         "consumer_goods": "Tata India Consumer Fund Direct",
         "energy": "Nippon India Power & Infra Fund",
         "finance": "Nippon India Banking & Financial Services Fund",
-        "healthcare": "Nippon India Pharma Bns"
-
+        "healthcare": "Nippon India Pharma Bns",
+        "technology": "Nippon India ETF Nifty IT"
+    },
+    "UK": {
+        "consumer_goods": "Tesco",
+        "energy": "Shell",
+        "finance": "Lloyds",
+        "healthcare": "AstraZeneca",
+        "technology": "Sage"
+    },
+    "US": {
+        "consumer_goods": "",
+        "energy": "",
+        "finance": "",
+        "healthcare": "",
+        "technology": ""
     }
 }
