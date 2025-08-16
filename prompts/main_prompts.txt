@@ -146,6 +146,8 @@ I want you to write 1000 words about it.
 Give me output in latex code without boilerplate code. I want response in a codeblock. 
 Eg. ```latex response```.
 
+Do not add any subsections or any other boilerplate code. 
+
 ----------------------------------------------------------------------------------------
 
 \section{Methodology}
