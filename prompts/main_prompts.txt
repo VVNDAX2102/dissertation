@@ -71,6 +71,9 @@ Refer to the following writing style guide.
 
 I have written the following as my introduction to this thesis as follows. Try to reduce the repetition of what we say. 
 
+Give me output in latex code without boilerplate code. I want response in a codeblock. 
+Eg. ```latex response```.
+
 Introduction: 
 """
 
