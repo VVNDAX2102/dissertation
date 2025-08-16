@@ -136,3 +136,37 @@ Eg. ```latex response```.
 
 
 -----------------------------------------------------------------------------------------
+
+
+\section{Methodology}
+
+\subsection{Technical Indicators}
+
+
+\subsubsection{Bollinger Bands}
+
+
+
+\subsubsection{Relative Strength Index (RSI)}
+
+
+
+\subsubsection{Moving Average Convergence Divergence (MACD)}
+
+
+
+\subsubsection{Ichimoku Clouds}
+
+
+
+\subsection{Signal Generation and Trading Strategy}
+
+
+\subsubsection{Signal Generation Rules}
+
+
+
+\subsubsection{Illustrative Trade Examples}
+
+
+\subsection{Performance Measurement}
