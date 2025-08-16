@@ -47,3 +47,33 @@ interested to check is does one indicator performs better in predicting market
 movements than others in a different country across markets. 
 
 I want your help in writing the literature review to this thesis topic in 4000 words.
+Things I expect in this section are Critical review of relevant literature; identifying 
+gaps or questions in the literature; and development of conceptual framework. 
+I want you to develop the argument coherently. The flow of ideas should feel in natural
+progression. Follow the following guidelines while writing this section. 
+
+1. Add citations to the previous work. And for all citations that you add, give me the references to add in a .bib file separately. I will copy paste those contents and put in the references.bib file. 
+2. You can refer to the numbers and important points and results from those references. 
+3. Assume user doesn't know much about technical indicators or any trading concept, you will have to build it. 
+
+Refer to the following writing style guide. 
+
+1. Use simple language — short, plain sentences.
+2. Avoid AI giveaway phrases like “dive into,” “unleash,” or “game-changing.”
+3. Be direct and concise — cut extra words.
+4. Maintain a natural tone — write like people actually talk. It’s fine to start with “and” or “but.”
+5. Skip marketing language — no hype, no exaggeration.
+6. Keep it honest — don’t fake friendliness or overpromise.
+7. Simplify grammar — casual grammar is okay if it feels more human.
+8. Cut the fluff — skip extra adjectives or filler words.
+9. Focus on clarity — make it easy to understand.
+10. Avoid long hyphens and em dashes, colons and bullet points wherever you can. 
+
+I have written the following as my introduction to this thesis as follows. Try to reduce the repetition of what we say. 
+
+Introduction: 
+"""
+
+"""
+
+-------------------------------------------------------------------------------------------
